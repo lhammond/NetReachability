@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86E2F0111B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0121B4EE700002D66BB /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		86E2F0131B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
-		86E2F0141B4EE700002D66BB /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* Reachability.m */; };
+		86E2F0111B4EE700002D66BB /* NetReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* NetReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0121B4EE700002D66BB /* NetReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E2F00F1B4EE700002D66BB /* NetReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E2F0131B4EE700002D66BB /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* NetReachability.m */; };
+		86E2F0141B4EE700002D66BB /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E2F0101B4EE700002D66BB /* NetReachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		86E2EFD41B4EE3C9002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E2EFD41B4EE3C9002D66BB /* NetReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E2EFD71B4EE3C9002D66BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86E2EFF21B4EE3DE002D66BB /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Reachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86E2F00F1B4EE700002D66BB /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../Reachability.h; sourceTree = "<group>"; };
-		86E2F0101B4EE700002D66BB /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../Reachability.m; sourceTree = "<group>"; };
+		86E2EFF21B4EE3DE002D66BB /* NetReachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetReachability.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86E2F00F1B4EE700002D66BB /* NetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetReachability.h; path = ../NetReachability.h; sourceTree = "<group>"; };
+		86E2F0101B4EE700002D66BB /* NetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetReachability.m; path = ../NetReachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,8 +50,8 @@
 		86E2EFB41B4EE3A2002D66BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86E2EFD41B4EE3C9002D66BB /* Reachability.framework */,
-				86E2EFF21B4EE3DE002D66BB /* Reachability.framework */,
+				86E2EFD41B4EE3C9002D66BB /* NetReachability.framework */,
+				86E2EFF21B4EE3DE002D66BB /* NetReachability.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +59,8 @@
 		86E2F00E1B4EE6D5002D66BB /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				86E2F00F1B4EE700002D66BB /* Reachability.h */,
-				86E2F0101B4EE700002D66BB /* Reachability.m */,
+				86E2F00F1B4EE700002D66BB /* NetReachability.h */,
+				86E2F0101B4EE700002D66BB /* NetReachability.m */,
 				86E2EFD71B4EE3C9002D66BB /* Info.plist */,
 			);
 			name = Framework;
@@ -73,7 +73,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0111B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0111B4EE700002D66BB /* NetReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0121B4EE700002D66BB /* Reachability.h in Headers */,
+				86E2F0121B4EE700002D66BB /* NetReachability.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			);
 			name = iOSReachability;
 			productName = iOSReachability;
-			productReference = 86E2EFD41B4EE3C9002D66BB /* Reachability.framework */;
+			productReference = 86E2EFD41B4EE3C9002D66BB /* NetReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		86E2EFF11B4EE3DE002D66BB /* MacOSReachability */ = {
@@ -121,7 +121,7 @@
 			);
 			name = MacOSReachability;
 			productName = MacOSReachability;
-			productReference = 86E2EFF21B4EE3DE002D66BB /* Reachability.framework */;
+			productReference = 86E2EFF21B4EE3DE002D66BB /* NetReachability.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -180,7 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0131B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0131B4EE700002D66BB /* NetReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86E2F0141B4EE700002D66BB /* Reachability.m in Sources */,
+				86E2F0141B4EE700002D66BB /* NetReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +300,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_MODULE_NAME = NetReachability;
+				PRODUCT_NAME = NetReachability;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -317,8 +317,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_MODULE_NAME = NetReachability;
+				PRODUCT_NAME = NetReachability;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -341,8 +341,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_MODULE_NAME = NetReachability;
+				PRODUCT_NAME = NetReachability;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -361,8 +361,8 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_MODULE_NAME = Reachability;
-				PRODUCT_NAME = Reachability;
+				PRODUCT_MODULE_NAME = NetReachability;
+				PRODUCT_NAME = NetReachability;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "86E2EFD31B4EE3C9002D66BB"
-               BuildableName = "Reachability.framework"
+               BuildableName = "NetReachability.framework"
                BlueprintName = "iOSReachability"
                ReferencedContainer = "container:Framework.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86E2EFD31B4EE3C9002D66BB"
-            BuildableName = "Reachability.framework"
+            BuildableName = "NetReachability.framework"
             BlueprintName = "iOSReachability"
             ReferencedContainer = "container:Framework.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86E2EFD31B4EE3C9002D66BB"
-            BuildableName = "Reachability.framework"
+            BuildableName = "NetReachability.framework"
             BlueprintName = "iOSReachability"
             ReferencedContainer = "container:Framework.xcodeproj">
          </BuildableReference>
@@ -94,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "86E2EFD31B4EE3C9002D66BB"
-            BuildableName = "Reachability.framework"
+            BuildableName = "NetReachability.framework"
             BlueprintName = "iOSReachability"
             ReferencedContainer = "container:Framework.xcodeproj">
          </BuildableReference>

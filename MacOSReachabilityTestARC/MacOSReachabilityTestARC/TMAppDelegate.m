@@ -8,7 +8,7 @@
 
 #import "TMAppDelegate.h"
 
-#import "Reachability.h"
+#import "NetReachability.h"
 
 @implementation TMAppDelegate
 
@@ -18,7 +18,7 @@
 
 -(void)reachabilityChanged:(NSNotification*)note
 {
-    Reachability * reach = [note object];
+    NetReachability * reach = [note object];
     
     if([reach isReachable])
     {
@@ -41,16 +41,16 @@
                                                object:nil];
 
     
-    Reachability * reach = [Reachability reachabilityWithHostname:@"www.google.com"];
+    NetReachability * reach = [NetReachability reachabilityWithHostname:@"www.google.com"];
     
-    reach.reachableBlock = ^(Reachability * reachability)
+    reach.reachableBlock = ^(NetReachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
             _blockLabel.stringValue = @"Block Says Reachable";
         });
     };
     
-    reach.unreachableBlock = ^(Reachability * reachability)
+    reach.unreachableBlock = ^(NetReachability * reachability)
     {
         dispatch_async(dispatch_get_main_queue(), ^{
             _blockLabel.stringValue = @"Block Says Unreachable";
